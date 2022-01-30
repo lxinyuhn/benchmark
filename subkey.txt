@@ -1,0 +1,32 @@
+liu@ubuntu:~$ subkey generate --scheme sr25519
+Secret phrase:        juice inhale super purity ethics delay fuel struggle jar security ocean cry
+  Secret seed:       0x2ce5db6f3f026dd2297ad80354d1881e9204a56e2e220ca6caa38457dcf89390
+  Public key (hex):  0xe2999f7f85c200fbdf1137270f39b4060447eb0e82421ce18816bd0c80cdda2e
+  Account ID:        0xe2999f7f85c200fbdf1137270f39b4060447eb0e82421ce18816bd0c80cdda2e
+  Public key (SS58): 5HBpKCqEYtCQ1gmCbkf1LKRLPMEY2vnDQH2qviphXn3BD6jC
+  SS58 Address:      5HBpKCqEYtCQ1gmCbkf1LKRLPMEY2vnDQH2qviphXn3BD6jC
+liu@ubuntu:~$ subkey inspect --scheme ed25519 "juice inhale super purity ethics delay fuel struggle jar security ocean cry"
+Secret phrase:       juice inhale super purity ethics delay fuel struggle jar security ocean cry
+  Secret seed:       0x2ce5db6f3f026dd2297ad80354d1881e9204a56e2e220ca6caa38457dcf89390
+  Public key (hex):  0xf90d504677bb3ee5d69006c73527b40fc911f22dc1d90ec0aa3f94eee47ac01c
+  Account ID:        0xf90d504677bb3ee5d69006c73527b40fc911f22dc1d90ec0aa3f94eee47ac01c
+  Public key (SS58): 5HhFjcAvtzpod1aQPMibF2NQtmX7n4Udf4M4RHDGiK4Pj65Y
+  SS58 Address:      5HhFjcAvtzpod1aQPMibF2NQtmX7n4Udf4M4RHDGiK4Pj65Y
+
+
+
+
+liu@ubuntu:~$ subkey generate --scheme sr25519
+Secret phrase:       kitchen hire horse sniff possible layer upper nominee chaos hunt behave law
+  Secret seed:       0xbc820fdbc484843f97714b987cfbee922cc1d72430b0fc03dd3c5f974b7cf5f6
+  Public key (hex):  0xd8474390212aa23c12d68af5b5a44c416bc78acb76c76e90a44586d05a1c3e35
+  Account ID:        0xd8474390212aa23c12d68af5b5a44c416bc78acb76c76e90a44586d05a1c3e35
+  Public key (SS58): 5GxHNR9DZa4KEZnJm9UyYo5mLbfVWPfuw8HwDPGwJvHSnNRa
+  SS58 Address:      5GxHNR9DZa4KEZnJm9UyYo5mLbfVWPfuw8HwDPGwJvHSnNRa
+liu@ubuntu:~$ subkey inspect --scheme ed25519 "kitchen hire horse sniff possible layer upper nominee chaos hunt behave law"
+Secret phrase:       kitchen hire horse sniff possible layer upper nominee chaos hunt behave law
+  Secret seed:       0xbc820fdbc484843f97714b987cfbee922cc1d72430b0fc03dd3c5f974b7cf5f6
+  Public key (hex):  0x19bbd81b40fa661f659e9c93c087e1a5c907e2c541af3f95224b8b4185d0b33f
+  Account ID:        0x19bbd81b40fa661f659e9c93c087e1a5c907e2c541af3f95224b8b4185d0b33f
+  Public key (SS58): 5CeSrafRJ51Hh4EdjkR6CraD2eq5Tvz7PidxXBP4qu8v4TWa
+  SS58 Address:      5CeSrafRJ51Hh4EdjkR6CraD2eq5Tvz7PidxXBP4qu8v4TWa
