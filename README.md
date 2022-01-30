@@ -1,69 +1,6 @@
-# Substrate Node Template
-
-A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
-
-## Getting Started
-
-Follow these steps to get started with the Node Template :hammer_and_wrench:
-
-### Rust Setup
-
-First, complete the [basic Rust setup instructions](./doc/rust-setup.md).
-
-### Run
-
-Use Rust's native `cargo` command to build and launch the template node:
-
-```sh
-cargo run --release -- --dev --tmp
-```
-
-### Build
-
-The `cargo run` command will perform an initial build. Use the following command to build the node
-without launching it:
-
-```sh
-cargo build --release
-```
-
-### Embedded Docs
-
-Once the project has been built, the following command can be used to explore all parameters and
-subcommands:
-
-```sh
-./target/release/node-template -h
-```
-
-## Run
-
-The provided `cargo run` command will launch a temporary node and its state will be discarded after
-you terminate the process. After the project has been built, there are other ways to launch the
-node.
-
-### Single-Node Development Chain
-
-This command will start the single-node development chain with persistent state:
-
-```bash
-./target/release/node-template --dev
-```
-
-Purge the development chain's state:
-
-```bash
-./target/release/node-template purge-chain --dev
-```
-
-Start the development chain with detailed logging:
-
-```bash
-RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev
-```
 
 
-### Benchmark
+### Benchmark ---作业一
 
 
 ```bash
@@ -88,7 +25,7 @@ weights.rs:
 
 ### Start a private chain
 
-### 1. Chain Spec:
+### 1. Chain Spec: ---作业二:
 
 ```bash
 # Export the local chain spec to json
@@ -122,7 +59,7 @@ keystore.txt
 ./target/release/node-template build-spec --chain=customSpec.json --raw --disable-default-bootnode > customSpecRaw.json 
 ```
     
-### start Peer1
+### start Peer1  ---作业三:
 ```bash
 #  first blockchain node
 ./target/release/node-template purge-chain --base-path /tmp/node01 --chain local -y
